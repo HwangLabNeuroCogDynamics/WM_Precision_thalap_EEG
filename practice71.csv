@@ -1,14 +1,14 @@
 left_gabor_ori,right_gabor_ori,left_distractor_ori,right_distractor_ori,similarity_range,cue,probe_x,probe_ori,correct_response,rotate_direction,similarity,another_similarity
-137,178,144,199,"(0,18] degrees",neutral,-0.4,126,137,clockwise,7,21
-165,59,184,65,"(18,36] degrees",left,-0.4,184,165,clockwise,19,6
-50,97,30,90,"(0,18] degrees",right,0.4,67,97,anticlockwise,-7,-20
-24,71,18,52,"(18,36] degrees",neutral,0.4,114,71,anticlockwise,-19,-6
-87,31,90,60,"(0,18] degrees",left,-0.4,74,87,clockwise,3,29
-166,26,179,58,"(18,36] degrees",right,0.4,66,26,clockwise,32,13
-94,19,87,-6,"(0,18] degrees",neutral,-0.4,80,94,anticlockwise,-7,-25
-152,55,119,48,"(18,36] degrees",left,-0.4,159,152,anticlockwise,-33,-7
-69,179,97,189,"(0,18] degrees",right,0.4,141,179,clockwise,10,28
-115,166,124,200,"(18,36] degrees",neutral,0.4,174,166,clockwise,34,9
-39,110,26,75,"(0,18] degrees",left,-0.4,33,39,anticlockwise,-13,-35
-41,91,31,56,"(18,36] degrees",right,0.4,134,91,anticlockwise,-35,-10
-31,130,34,158,"(0,18] degrees",neutral,-0.4,53,31,clockwise,3,28
+118,27,151,72,"[25,45] degrees",neutral,-0.4,107,118,clockwise,33,45
+112,159,142,189,"[25,45] degrees",left,-0.4,93,112,clockwise,30,30
+70,177,102,216,"[25,45] degrees",neutral,0.4,167,177,clockwise,39,32
+37,114,64,138,"[25,45] degrees",right,0.4,138,114,clockwise,24,27
+56,114,88,142,"[25,45] degrees",neutral,-0.4,61,56,clockwise,32,28
+25,109,65,137,"[25,45] degrees",left,-0.4,47,25,clockwise,40,28
+160,103,126,58,"[25,45] degrees",neutral,0.4,124,103,anticlockwise,-45,-34
+149,85,118,52,"[25,45] degrees",right,0.4,120,85,anticlockwise,-33,-31
+54,109,16,78,"[25,45] degrees",neutral,-0.4,28,54,anticlockwise,-38,-31
+34,99,-8,67,"[25,45] degrees",left,-0.4,52,34,anticlockwise,-42,-32
+172,32,142,2,"[25,45] degrees",neutral,0.4,-2,32,anticlockwise,-30,-30
+45,90,25,53,"[25,45] degrees",right,0.4,108,90,anticlockwise,-37,-20
+14,131,-13,95,"[25,45] degrees",neutral,-0.4,52,14,anticlockwise,-27,-36
