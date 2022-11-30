@@ -468,7 +468,7 @@
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Routine" updates="constant" val="if ((probe.ori &gt; 180)) {&amp;#10;    probe.ori -= 180;&amp;#10;    }&amp;#10;psychoJS.experiment.addData('response_ori', probe.ori);" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="##if not probe_resp.keys:&amp;#10;    ##port.write(bytes([subNonResp_trig]))&amp;#10;#if not mouse.getPressed()[0]:&amp;#10;    #port.write(bytes([subNonResp_trig]))&amp;#10;&amp;#10;if probe.ori &gt; 180:&amp;#10;    probe.ori -= 180&amp;#10;thisExp.addData('response_ori', probe.ori)" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="##if not probe_resp.keys:&amp;#10;    ##port.write(bytes([subNonResp_trig]))&amp;#10;#if not mouse.getPressed()[0]:&amp;#10;    #print('no response')&amp;#10;    #port.write(bytes([subNonResp_trig]))&amp;#10;&amp;#10;if probe.ori &gt; 180:&amp;#10;    probe.ori -= 180&amp;#10;thisExp.addData('response_ori', probe.ori)" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="code_4" valType="code"/>
       </CodeComponent>

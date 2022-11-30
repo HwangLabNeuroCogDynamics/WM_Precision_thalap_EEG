@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Wed Nov 30 13:50:15 2022
+    on Wed Nov 30 14:27:59 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1686,7 +1686,8 @@ for thisPractice_loop in practice_loop:
         practice.addData('probe.stopped', probe.tStopRefresh)
         ##if not probe_resp.keys:
             ##port.write(bytes([subNonResp_trig]))
-        #if not mouse.getPressed()[0]:
+        if not mouse.getPressed()[0]:
+            print('no response')
             #port.write(bytes([subNonResp_trig]))
         
         if probe.ori > 180:
@@ -2535,7 +2536,8 @@ for thisTrial in trials:
     trials.addData('probe.stopped', probe.tStopRefresh)
     ##if not probe_resp.keys:
         ##port.write(bytes([subNonResp_trig]))
-    #if not mouse.getPressed()[0]:
+    if not mouse.getPressed()[0]:
+        print('no response')
         #port.write(bytes([subNonResp_trig]))
     
     if probe.ori > 180:

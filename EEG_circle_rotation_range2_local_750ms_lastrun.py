@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.3),
-    on Wed Nov 30 13:36:34 2022
+    on Wed Nov 30 14:26:46 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -206,8 +206,8 @@ right_gabor = visual.ImageStim(
     texRes=512, interpolate=True, depth=-2.0)
 import random
 rand_int = random.randint(1,100)
-conditions_csv = f'conditions{rand_int}.csv'
-practice_csv = f'practice{rand_int}.csv'
+conditions_csv = f'120trials/conditions{rand_int}.csv'
+practice_csv = f'120trials/practice{rand_int}.csv'
 
 # Initialize components for Routine "distractor"
 distractorClock = core.Clock()
@@ -1687,6 +1687,7 @@ for thisPractice_loop in practice_loop:
         #if not probe_resp.keys:
             #port.write(bytes([subNonResp_trig]))
         if not mouse.getPressed()[0]:
+            print('no response')
             port.write(bytes([subNonResp_trig]))
         
         if probe.ori > 180:
@@ -2536,6 +2537,7 @@ for thisTrial in trials:
     #if not probe_resp.keys:
         #port.write(bytes([subNonResp_trig]))
     if not mouse.getPressed()[0]:
+        print('no response')
         port.write(bytes([subNonResp_trig]))
     
     if probe.ori > 180:
