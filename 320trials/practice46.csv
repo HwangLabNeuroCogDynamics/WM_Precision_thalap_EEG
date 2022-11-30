@@ -1,0 +1,14 @@
+left_gabor_ori,right_gabor_ori,left_distractor_ori,right_distractor_ori,similarity_range,cue,probe_x,probe_ori,correct_response,rotate_direction,similarity,another_similarity
+163,93,186,124,"[25,45] degrees",neutral,-0.4,164,163,clockwise,23,31
+108,52,151,86,"[25,45] degrees",left,-0.4,64,108,clockwise,43,34
+116,4,157,43,"[25,45] degrees",neutral,0.4,5,4,clockwise,39,41
+108,3,137,27,"[25,45] degrees",right,0.4,33,3,clockwise,24,29
+170,77,212,98,"[25,45] degrees",neutral,-0.4,145,170,clockwise,42,21
+61,118,89,147,"[25,45] degrees",left,-0.4,70,61,clockwise,28,29
+46,114,23,87,"[25,45] degrees",neutral,0.4,92,114,anticlockwise,-27,-23
+141,65,110,39,"[25,45] degrees",right,0.4,59,65,anticlockwise,-26,-31
+33,158,2,120,"[25,45] degrees",neutral,-0.4,38,33,anticlockwise,-31,-38
+54,99,11,79,"[25,45] degrees",left,-0.4,19,54,anticlockwise,-43,-20
+32,118,1,95,"[25,45] degrees",neutral,0.4,111,118,anticlockwise,-23,-31
+35,89,13,53,"[25,45] degrees",right,0.4,73,89,anticlockwise,-36,-22
+86,173,50,140,"[25,45] degrees",neutral,-0.4,73,86,anticlockwise,-36,-33
